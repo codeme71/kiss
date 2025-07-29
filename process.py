@@ -12,6 +12,6 @@ number = form.getvalue('number')
 process = subprocess.run(['/usr/bin/kiss', number], capture_output=True, text=True)
 output = process.stdout
 
-print("Content-type:text/html\r\n\r\n")
+print("Content-type:text/htm\r\n\r\n")
 print(f"<p>Результат: {output}</p>") 
 
