@@ -1,0 +1,13 @@
+# kiss
+
+summary numeric string without separate
+
+build: ggc kiss.c -o kiss -static
+
+usage: kiss < numeric string >
+
+to ve continue 
+
+
+
+
